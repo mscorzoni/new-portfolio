@@ -19,6 +19,7 @@ gem 'autoprefixer-rails', '~> 9.1', '>= 9.1.3'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'font-awesome-sass', '~> 5.3', '>= 5.3.1'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
+gem 'foreman'
 
 
 group :development, :test do
