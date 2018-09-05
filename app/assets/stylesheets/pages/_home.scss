@@ -32,8 +32,8 @@ a.active {
     outline: 0;
 }
 
-a {
-    color: #1ee2e7;
+a { color: gray;
+   ;
 }
 
 a:hover,
@@ -733,6 +733,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
     margin-bottom: 0;
+    list-style-type: none;
 }
 
 ul.social-buttons li a {
@@ -859,4 +860,8 @@ body {
 .tech-news {
     height: 200px;
     width: 300px;
+}
+
+#profile-image {
+    border: 1px solid gray;
 }
