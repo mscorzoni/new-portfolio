@@ -20,10 +20,10 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'font-awesome-sass', '~> 5.3', '>= 5.3.1'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'foreman'
-
+gem 'twitter', '~> 6.2'
 
 group :development, :test do
-
+  gem 'dotenv-rails'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
