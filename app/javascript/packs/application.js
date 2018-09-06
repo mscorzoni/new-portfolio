@@ -22,3 +22,8 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+let name = document.getElementById("name").value;
+let email = document.getElementById("name").value;
+let phone = document.getElementById("phone").value;
+let message = document.getElementById("message").value;

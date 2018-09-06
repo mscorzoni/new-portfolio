@@ -1,12 +1,13 @@
 class PagesController < ApplicationController
   def home
-    @skills = Skill.all
     @tweets = SocialTool.twitter_search
-  end
+    @portfolio = Portfolio.new
+ end
 
   def about
   end
 
   def contact
   end
+
 end
