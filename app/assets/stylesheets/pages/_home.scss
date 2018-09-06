@@ -263,7 +263,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: asset-url('banner.jpg');
+    background-image: url('http://res.cloudinary.com/mscorzoni/image/upload/v1536241435/banner.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -648,7 +648,7 @@ section h3.section-subheading {
 
 section#contact {
     background-color: #222;
-    background-image: asset-url('footer.jpg');
+    background-image: url('http://res.cloudinary.com/mscorzoni/image/upload/v1536241436/footer.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
