@@ -4,7 +4,7 @@ function loadDynamicBannerText() {
   new Typed('#banner-typed-text', {
     strings: ["This is my portfolio homepage"],
     typeSpeed: 50,
-    loop: true
+    loop: false
   });
 }
 

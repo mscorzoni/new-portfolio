@@ -10,7 +10,7 @@ class PagesController < ApplicationController
 
   def contact
     if @portfolio.save
-       redirect_to '/'
+       redirect_to root_path
     end
   end
 end
