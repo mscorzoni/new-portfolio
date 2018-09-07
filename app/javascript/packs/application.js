@@ -1,4 +1,6 @@
 import 'bootstrap';
+import { loadDynamicBannerText } from '../components/banner';
+
 
 console.log('Hello World from Webpacker')
 
@@ -22,6 +24,8 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+loadDynamicBannerText();
 
 let name = document.getElementById("name").value;
 let email = document.getElementById("name").value;
