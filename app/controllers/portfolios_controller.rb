@@ -13,10 +13,10 @@ class PortfoliosController < ApplicationController
   def create
     @portfolio = Portfolio.new(params.require(:portfolio).permit(:title, :body, :main_image, :thumb_image, :subtitle ))
     if @portfolio.save
-       redirect_to root_path
+       redirect_to '/'
        ContactMailer.email(@portfolio).deliver_now
     else
-      redirect_to root_path
+      redirect_to '/'
     end
   end
 end
